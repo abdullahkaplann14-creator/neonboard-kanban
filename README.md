@@ -160,4 +160,4 @@ Tarayıcıda ayrıca doğrulandı:
 
 ## Lisans
 
-Yarışma teslimi — MIT benzeri serbest kullanım.
+MIT — ayrıntılar için [LICENSE](LICENSE).
