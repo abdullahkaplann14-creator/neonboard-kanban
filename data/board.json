@@ -1,0 +1,99 @@
+{
+  "board": {
+    "columns": [
+      {
+        "id": "col-yapilacak",
+        "title": "Yapılacak",
+        "order": 0,
+        "cards": [
+          {
+            "id": "c-01",
+            "title": "Prisma şemasını yaz",
+            "description": "Column ve Card modelleri, cascade silme ilişkisi, order alanı.",
+            "label": "backend",
+            "dueDate": "2026-10-24T17:00:00.000Z",
+            "order": 0
+          },
+          {
+            "id": "c-02",
+            "title": "zod ile girdi doğrulama",
+            "description": "Boş başlık 400 dönecek, hata zarfı {error:{code,message}}.",
+            "label": "backend",
+            "dueDate": null,
+            "order": 1
+          },
+          {
+            "id": "c-03",
+            "title": "Sürükle-bırak kütüphanesini kur",
+            "description": "@dnd-kit/core + @dnd-kit/sortable. Kolon içi ve kolonlar arası.",
+            "label": "frontend",
+            "dueDate": null,
+            "order": 2
+          },
+          {
+            "id": "c-04",
+            "title": "Arama ve etiket filtresi",
+            "description": "GET /api/cards?q=&label= ikisi birlikte çalışacak.",
+            "label": "frontend",
+            "dueDate": "2026-10-23T09:00:00.000Z",
+            "order": 3
+          }
+        ]
+      },
+      {
+        "id": "col-yapiliyor",
+        "title": "Yapılıyor",
+        "order": 1,
+        "cards": [
+          {
+            "id": "c-05",
+            "title": "POST /api/cards/:id/move",
+            "description": "Taşıma sonrası iki kolonun order değerleri 0'dan boşluksuz yeniden hesaplanacak.",
+            "label": "backend",
+            "dueDate": "2026-10-25T12:00:00.000Z",
+            "order": 0
+          },
+          {
+            "id": "c-06",
+            "title": "Kart detay modalı",
+            "description": "Açıklama, etiket, son tarih düzenlenebilir olacak. Esc ile kapanacak.",
+            "label": "frontend",
+            "dueDate": null,
+            "order": 1
+          },
+          {
+            "id": "c-07",
+            "title": "Yükleniyor / boş / hata durumları",
+            "description": "API kapalıyken arayüz ne gösteriyor?",
+            "label": "frontend",
+            "dueDate": null,
+            "order": 2
+          }
+        ]
+      },
+      {
+        "id": "col-bitti",
+        "title": "Bitti",
+        "order": 2,
+        "cards": [
+          {
+            "id": "c-08",
+            "title": "İki projeyi tek komutla kaldır",
+            "description": "concurrently ile kökte npm run dev; api :3001, web :5173.",
+            "label": "altyapi",
+            "dueDate": null,
+            "order": 0
+          },
+          {
+            "id": "c-09",
+            "title": "AGENTS.md ve docs/PLAN.md",
+            "description": "Yığın, portlar, komutlar, git kuralı; mimari ve yapım sırası.",
+            "label": "surec",
+            "dueDate": null,
+            "order": 1
+          }
+        ]
+      }
+    ]
+  }
+}

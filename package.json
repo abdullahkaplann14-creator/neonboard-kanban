@@ -1,0 +1,24 @@
+{
+  "name": "neonboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NeonBoard — API sözleşmesine birebir uyan, sürükle-bırak Kanban panosu",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm run dev -w api\" \"npm run dev -w web\"",
+    "dev:api": "npm run dev -w api",
+    "dev:web": "npm run dev -w web",
+    "seed": "npm run seed -w api",
+    "test:api": "npm run test -w api",
+    "build": "npm run build -w web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
